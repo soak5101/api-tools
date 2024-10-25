@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebar {
+  width: 16rem;
+  background-color: #2d3748;
+  color: #fff;
+}
+
+.main-content {
+  flex: 1;
+  padding: 1rem;
+}
