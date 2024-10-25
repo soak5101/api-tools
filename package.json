@@ -1,7 +1,7 @@
 {
   "name": "api-tools",
   "version": "1.0.0",
-  "description": "A test tool for verifying APIs using Next.js and Tailwind Theme Plugin",
+  "description": "A test tool for verifying APIs using Next.js and Bootstrap",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
@@ -12,6 +12,6 @@
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "tailwindcss": "latest"
+    "bootstrap": "latest"
   }
 }
