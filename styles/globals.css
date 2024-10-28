@@ -1,0 +1,44 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.sidebar {
+  width: 16rem;
+  background-color: #2d3748;
+  color: #fff;
+}
+
+.main-content {
+  flex: 1;
+  padding: 1rem;
+}
+
+/* Modern design elements */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f7fafc;
+  color: #2d3748;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+button {
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4c51bf;
+}
+
+input, textarea {
+  border-radius: 0.375rem;
+  border: 1px solid #cbd5e0;
+  padding: 0.5rem;
+  transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+  border-color: #4c51bf;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(76, 81, 191, 0.3);
+}
